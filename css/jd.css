@@ -1,0 +1,203 @@
+:root{
+    --padding_top_bottom: 30px;
+}
+
+html{
+
+    background-image: url("../src/JOHN\ TOWNER_Unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Handjet', cursive;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: white;
+
+}
+
+body{
+
+    background: transparent;
+    width: 95%;
+    margin: auto;
+    color: white;
+    /* text-decoration: underline; */
+
+    font-family: 'Handjet', cursive;
+    font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+#welcome_title{
+
+    position: relative;
+    right: 1000px;
+
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    /* padding-bottom: 20px; */
+
+    font-family: 'Borel', cursive;
+    animation-name: title_slide;
+    animation-duration: 2s;
+    right: 0px;
+
+    /* animation-iteration-count: infinite; */
+
+}
+
+.first_third{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50%;
+
+}
+
+.quote_container{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fx_i1{
+
+    padding-top: var(--padding_top_bottom);
+    padding-bottom: var(--padding_top_bottom);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    color:white;
+
+}
+
+.icon_containers{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+
+
+
+.prof_pic{
+
+    position: relative;
+    top: 30px;
+    padding:10px;
+    width: 230px;
+    height: auto;
+    border-radius: 25px;
+    border-style:double;
+    border-color: white;
+    box-shadow: 10px 10px 10px rgb(115, 105, 131);
+
+}
+
+.inner_quote{
+
+    position: relative;
+    top: 10px;
+    /* padding-top: 30px; */
+
+}
+
+.quote_container:hover .prof_pic{
+
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px rgb(67, 22, 43);
+
+}
+
+.quote_container:hover .inner_quote{
+
+    transition: 0.5s;
+    font-size: x-large;
+    text-align: center;
+
+}
+.front_padding{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    max-height: 30%;
+    /* border-bottom: solid; */
+
+}
+
+#notion_chart{
+    min-height: 220px;
+
+}
+
+.social_container{
+
+    padding-top: 10px;
+
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.social_icon:hover{
+
+    /* position: relative; */
+    transition: 0.5s;
+    width: 50px;
+
+}
+
+.disapearing{
+
+    width: 50px; 
+    height: 50px;
+    /* background-image: url("https://cdn-icons-png.flaticon.com/512/709/709612.png"); */
+    opacity: 1;
+    /* background-color: red; */
+    animation-name: anim_eye;
+    animation-duration: 4s;
+    /* animation-name: anim_eye2;
+    animation-duration: 2s; */
+    animation-iteration-count: infinite;
+
+}
+
+.second_third{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+  @keyframes anim_eye {
+    /* from {background-image: url("https://cdn-icons-png.flaticon.com/512/709/709612.png");} */
+    /* from {opacity: 1;} */
+/*     
+    to {background-image: url("https://cdn-icons-png.flaticon.com/512/8901/8901348.png");} */
+    /* to {opacity: 0;} */
+
+    0%   {opacity: 1;}
+    50%  {opacity: 0;}
+    100%  {opacity: 1;}
+    
+  }
+
+  @keyframes title_slide {
+
+    0%   {right: 1000px;}
+    50%  {right: -200px;}
+    51% { transform: translate(1px, 1px) rotate(0deg); }
+    60% { transform: translate(-1px, -2px) rotate(-2deg); }
+    65% { transform: translate(-3px, 0px) rotate(4deg); }
+    75% { transform: translate(0px, 0px) rotate(0deg); }
+    100%  {right: 0px;}
+    
+  }
