@@ -229,6 +229,17 @@ body{
 
   }
 
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;          /* Footer height */         /* Footer height */
+}
+
   @keyframes anim_eye {
     /* from {background-image: url("https://cdn-icons-png.flaticon.com/512/709/709612.png");} */
     /* from {opacity: 1;} */
