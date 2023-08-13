@@ -59,8 +59,89 @@ body{
 
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 100px;
+
+    animation-name: firstThird;
+    animation-duration: 2s;
+    top: 0px;
 
 }
+
+@keyframes firstThird {
+
+    0%   {top: 100px; opacity: 0;}
+    100%  {top: 0px; opacity: 1;}
+    
+  }
+
+  .firstThird_container{
+
+    position: relative;
+
+    top: 0px;
+
+    animation-name: firstThird;
+    animation-duration: 2s;
+    top: 0px;
+
+}
+
+
+.secondThird_container{
+
+    position: relative;
+    bottom: 100px;
+
+    animation-name: secondThird;
+    animation-duration: 2s;
+    bottom: 0px;
+
+  }
+
+  @keyframes secondThird {
+
+    0%   {bottom: 100px; opacity: 0;}
+    100%  {bottom: 0px; opacity: 1;}
+    
+  }
+
+.ThirdThird_container{
+
+position: relative;
+left: 100px;
+
+animation-name: thirdThird;
+animation-duration: 2s;
+left: 0px;
+
+}
+
+@keyframes thirdThird {
+
+0%   {left: 100px; opacity: 0;}
+100%  {left: 0px; opacity: 1;}
+
+}
+
+.forthThird_container{
+
+    position: relative;
+    right: 100px;
+    
+    animation-name: forthThird_container;
+    animation-duration: 2s;
+    right: 0px;
+    
+    }
+    
+    @keyframes forthThird_container {
+    
+    0%   {right: 100px; opacity: 0;}
+    100%  {right: 0px; opacity: 1;}
+    
+    }
+
 
 .fx_i1{
 
