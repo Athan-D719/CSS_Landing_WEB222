@@ -26,6 +26,8 @@ html{
     font-family: 'Handjet', cursive;
     font-family: 'Ysabeau SC', sans-serif;
     color: white;
+    cursor:url(../src/cursor.cur),auto;
+    background-attachment: fixed;
 
 }
 
@@ -253,6 +255,7 @@ left: 0px;
     animation-delay: 1s;
     animation-name: social-rot;
     animation-duration: 0.5s;
+    /* animation-delay: 9s; */
     /* animation-iteration-count: infinite; */
 
 }
@@ -264,6 +267,7 @@ left: 0px;
     animation-delay: 1.5s;
     animation-name: social-rot;
     animation-duration: 0.5s;
+    /* animation-delay: 9.5s; */
     /* animation-iteration-count: infinite; */
 }
 
@@ -274,6 +278,7 @@ left: 0px;
     animation-delay: 2s;
     animation-name: social-rot;
     animation-duration: 0.5s;
+    /* animation-delay: 10s; */
     /* animation-iteration-count: infinite; */
     
 }
@@ -285,6 +290,7 @@ left: 0px;
     animation-delay: 2.5s;
     animation-name: social-rot;
     animation-duration: 0.5s;
+    /* animation-delay: 10.5s; */
     /* animation-iteration-count: infinite; */
     
 }
