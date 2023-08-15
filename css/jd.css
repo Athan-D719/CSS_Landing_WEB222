@@ -14,6 +14,7 @@
 @media only screen and (max-width: 600px) {
 html {
     background-image: url("../src/JOHN\ TOWNER_Unsplash.jpg");
+    background-color: rgb(92, 34, 61);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
