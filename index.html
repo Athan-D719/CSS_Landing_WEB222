@@ -71,7 +71,7 @@
             
 
         </div>
-        <form class="border border-ligh rounded p-3 mt-3">
+        <form class="border border-ligh rounded p-3 mt-3" action="mailto:jondiaz@gmail.com" method="post" enctype="text/plain">
             <div class="form-group">
               <label for="exampleInputEmail1">Name</label>
               <input type="name" class="form-control" id="exampleInputEmail1"placeholder="Your Name">
@@ -82,8 +82,8 @@
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
               </div>
             <div class="form-group">
-              <label for="reasonContact">Contact Reason</label>
-              <textarea type="text" class="form-control" id="desc" placeholder="Reason"></textarea>
+              <label for="body">Contact Reason</label>
+              <textarea id="body" name="body" required type="text" class="form-control" placeholder="Reason"></textarea>
             </div>
             <div class="d-flex flex-row justify-content-between pt-4 pb-0">
               <div class="form-check">
@@ -101,7 +101,7 @@
 
             </div>
             <div class="d-flex justify-content-center">
-                <button type="submit" class="btn btn-dark mt-4"  style="margin-right: 10px;"><b style="padding-right: 10px;">Contact</b><img class="pt-1" src="https://cdn-icons-png.flaticon.com/512/5095/5095640.png" style="transform: rotate(180deg);" width="20px" alt="download_button"></button></button>
+                <button type="submit" value="Send" class="btn btn-dark mt-4"  style="margin-right: 10px;"><b style="padding-right: 10px;">Contact</b><img class="pt-1" src="https://cdn-icons-png.flaticon.com/512/5095/5095640.png" style="transform: rotate(180deg);" width="20px" alt="download_button"></button></button>
                 <button type="button" class=" btn btn-dark mt-4 d-flex flex-row" onclick="window.open('./src/Clean Resume.pdf')"><p class="m-0" style="padding-right: 10px;">Resume</p><img class="pt-1" src="https://cdn-icons-png.flaticon.com/512/5095/5095640.png" width="20px" alt="download_button"></button>
             </div>
              
